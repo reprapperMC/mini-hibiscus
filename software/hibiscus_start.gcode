@@ -1,14 +1,16 @@
-;This G-Code has been generated specifically for the LulzBot Mini with standard extruder
+;This G-Code has been generated specifically for LulzBot Hibiscus
 G26                                ; clear potential 'probe fail' condition
 G21                                ; set units to Millimetres
 M107                               ; disable fans
 G90                                ; absolute positioning
 M82                                ; set extruder to absolute mode
 G92 E0                             ; set extruder position to 0
-M140 S{material_bed_temperature}   ; start bed heating up
-G28                                ; home all axes
-M109 R{material_wipe_temperature}  ; wait for extruder to reach wiping temp
-G1 Z150 E-15 F75                   ; retract filament
+M140 S{material_bed_temperature}    ; start bed heating up
+G28                                 ; home all axes
+G0 X3 Y188 Z156 F200                ; move away from endstops
+M109 R{material_soften_temperature} ; soften filament before retraction
+G1 E-15 F75                         ; retract filament
+M109 R{material_wipe_temperature}   ; wait for extruder to reach wiping temp
 G1 X45 Y174 F11520                 ; move above wiper pad
 G1 Z0  F1200                       ; push nozzle into wiper
 G1 X45 Y174 Z-.5 F4000             ; wiping
