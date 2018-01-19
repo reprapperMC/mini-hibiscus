@@ -1,3 +1,6 @@
 [submodule "Production_parts/Electronics/dolores"]
 	path = Production_parts/Electronics/dolores
 	url = https://code.alephobjects.com/diffusion/DOLORES/dolores.git
+[submodule "Production_parts/Electronics/einsyretro"]
+	path = Production_parts/Electronics/einsyretro
+	url = https://code.alephobjects.com/diffusion/EINSYRETRO/einsyretro.git
