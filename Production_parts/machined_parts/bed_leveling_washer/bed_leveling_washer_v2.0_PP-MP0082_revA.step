@@ -2,9 +2,9 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/aleph/repos/mini-hibiscus/Production_parts/machined_parts/bed_
+'/home/aleph/Projects/taz-olive/production_parts/machined_parts/bed_
 leveling_washer/bed_leveling_washer_v2.0_PP-MP0082_revA.step',
-  '2017-11-14T12:55:26',('Author'),(''),
+  '2018-01-11T10:50:51',('Author'),(''),
   'Open CASCADE STEP processor 6.9','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
