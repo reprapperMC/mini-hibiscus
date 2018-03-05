@@ -10,5 +10,4 @@ M190 R{material_part_removal_temperature} ; wait for bed to cool down to removal
 G1 X145 F1000                             ; move extruder out of the way
 G1 Y175 F1000                             ; present finished print
 M140 S{material_keep_part_removal_temperature_t}; keep temperature or cool down
-M84                                       ; disable steppers
 G90                                       ; absolute positioning
